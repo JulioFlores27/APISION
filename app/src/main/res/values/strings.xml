@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">SIONM</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_maps">Maps</string>
+    <string name="Title">News</string>
+    <string name="title_activity_login">SIONM</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lote">Lote</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="control_de_producci_n">Control de Producción:</string>
+    <string name="materia_prima">Materia Prima:</string>
+    <string name="buscar_materia_prima">Buscar Materia Prima</string>
+    <string name="agregar_otra_mp">Agregar otra MP</string>
+    <string name="terminar_ubicaci_n">Terminar Ubicación</string>
+
+    <!--Tienda-->
+
+    <string name="Tienda">55</string>
+
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Constraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Usuario incorrecto</string>
+    <string name="error_invalid_password">La constraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_persona_list">Gente</string>
+    <string name="title_persona_detail">Persona Detail</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Add_New">Add New</string>
+    <string name="edit">Edit Contact</string>
+    <string name="delete">Delete Contact</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="country">City/State/Zip</string>
+    <string name="save">Save Contact</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Strings para inicio de sesión con datos de base remota-->
+
+    <string name="title_fragment">Inicio de sesión</string>
+    <string name="title_user">Usuario: </string>
+    <string name="title_pwd">Contraseña: </string>
+    <string name="title_boton">Iniciar sesión</string>
+
+    <!--Barcode-->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Haz click en el botón para escanear un producto</string>
+    <string name="read_barcode">Escanear</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Código leído correctamente</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+    <string-array name="Bases">
+        <item>Todas</item>
+        <item>Agua</item>
+        <item>Solvente</item>
+        <item>Altos sólidos</item>
+    </string-array>
+
+    <string-array name="Sustratos">
+        <item>Todos</item>
+        <item>Asfalto</item>
+        <item>Concreto y superficies minerales</item>
+        <item>Fibra de vidrio</item>
+        <item>Galvanizado</item>
+        <item>Madera</item>
+        <item>Metal</item>
+        <item>Mortero</item>
+        <item>Óxido</item>
+        <item>Plástico</item>
+        <item>Primario</item>
+        <item>Sello</item>
+        <item>Vidrio</item>
+
+    </string-array>
+
+    <string-array name="Funciones">
+        <item>Todas</item>
+        <item>Acabado</item>
+        <item>Acelerador</item>
+        <item>Acondicionador de metales</item>
+        <item>Activador</item>
+        <item>Convertidor</item>
+        <item>Fondo</item>
+        <item>Intermedio</item>
+        <item>Juntas expansión</item>
+        <item>Laca</item>
+        <item>Mortero</item>
+        <item>Plaste</item>
+        <item>Primario</item>
+        <item>Promotor</item>
+        <item>Removedor</item>
+        <item>Sellador</item>
+        <item>Varios</item>
+
+    </string-array>
+
+    <string-array name="Sectores">
+        <item>Todos</item>
+        <item>Aviación</item>
+        <item>Construcción</item>
+        <item>Contención</item>
+        <item>Madera</item>
+        <item>Mantenimiento industrial</item>
+        <item>Marino</item>
+        <item>Norma C.F.E.</item>
+        <item>Norma PEMEX</item>
+        <item>Otros</item>
+        <item>Pisos</item>
+        <item>Restauración y conservación</item>
+        <item>Transporte terrestre</item>
+
+
+    </string-array>
+
+
+</resources>

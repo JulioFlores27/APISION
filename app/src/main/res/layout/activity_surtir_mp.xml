@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".barcodereader.ui.camera.SurtirActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Surtir materia prima"
+            android:id="@+id/status_message"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escanear ubicación"
+                android:id="@+id/ubicacion_read_barcode"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teclear ubicación"
+                android:id="@+id/ubicacion_teclear_barcode"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicación: "
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/ubicación_barcode_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/status_message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/status_message"
+                android:layout_below="@+id/status_message"
+                android:hint="____"
+                android:textAppearance="?android:attr/textAppearance"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/rack_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/status_message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/status_message"
+                android:layout_below="@+id/status_message"
+                android:hint="____"
+                android:textAppearance="?android:attr/textAppearance"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="50dp"/>
+
+            <TextView
+                android:id="@+id/fila_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/status_message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/status_message"
+                android:layout_below="@+id/status_message"
+                android:hint="____"
+                android:textAppearance="?android:attr/textAppearance"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/columna_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/status_message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/status_message"
+                android:layout_below="@+id/status_message"
+                android:hint="____"
+                android:textAppearance="?android:attr/textAppearance"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escanear producto"
+                android:id="@+id/read_barcode"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teclear producto"
+                android:id="@+id/teclear_barcode"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escaneo: "
+                />
+
+            <EditText
+                android:id="@+id/cantidad_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar escaneo"
+                android:id="@+id/agregar_surtido"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>
+
+        <ListView
+
+            android:id="@+id/lvSurtidos"
+            android:layout_width="match_parent"
+            android:layout_height="279dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_guardar_tarima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terminar tarima" />
+
+            <Button
+                android:id="@+id/btn_guardar_pedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terminar pedido" />
+
+        </LinearLayout>
+
+
+
+        <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/auto_focus"-->
+        <!--android:id="@+id/auto_focus"-->
+        <!--android:layout_below="@+id/barcode_value"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="66dp"-->
+        <!--android:checked="false" />-->
+
+        <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/use_flash"-->
+        <!--android:id="@+id/use_flash"-->
+        <!--android:layout_alignTop="@+id/auto_focus"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:checked="false" />-->
+
+    </LinearLayout>
+
+</ScrollView>
